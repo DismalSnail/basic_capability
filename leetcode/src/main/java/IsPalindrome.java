@@ -38,9 +38,7 @@ public class IsPalindrome {
                 x /= 10;
                 tmp = tmp * 10 + pop;
             }
-            if (initialX == tmp) {
-                return true;
-            }
+            return initialX == tmp;
         }
         return false;
     }

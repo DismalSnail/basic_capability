@@ -71,11 +71,7 @@ public class IsValid {
                     return false;
             }
         }
-        if (parentheses.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return parentheses.isEmpty();
     }
 
 }

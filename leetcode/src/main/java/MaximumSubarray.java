@@ -45,7 +45,7 @@ public class MaximumSubarray {
         return maxSum;
     }
 
-    public static int maximumSubarray2(int nums[]) {
+    public static int maximumSubarray2(int[] nums) {
         return divideAndConquer(nums, 0, nums.length - 1);
     }
 

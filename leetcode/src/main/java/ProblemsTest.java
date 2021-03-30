@@ -1,7 +1,4 @@
-import org.hamcrest.core.Is;
 import org.junit.Test;
-
-import static com.leetcode.Reverse.reverse;
 
 /**
  * @author bitye
@@ -128,14 +125,14 @@ public class ProblemsTest {
 
     @Test
     public void addBinaryTest() {
-        String a ="11";
+        String a = "11";
         String b = "1";
         String out = AddBinary.addBinary1(a, b);
         System.out.println(out);
     }
 
     @Test
-    public void mySqrtTest(){
+    public void mySqrtTest() {
         System.out.println(SqrtX.mySqrt(8));
     }
 
